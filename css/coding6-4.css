@@ -1,0 +1,173 @@
+.main-description {
+    width: 800px;
+    margin-top: 95px;
+}
+
+.description {
+    font-family: playfair display;
+    font-size: 14px;
+    color: #626262;
+    padding-bottom: 12px;
+    letter-spacing: 1.3px;
+}
+
+.description span {
+    font-weight: bold;
+}
+
+.final-description {
+    font-family: playfair display;
+    font-size: 14px;
+    color: #626262;
+    padding-bottom: 100px;
+    letter-spacing: 1.5px;
+}
+
+.heading {
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+}
+
+.main-description h2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: playfair display;
+    color: #626262;
+    letter-spacing: 2px;
+}
+
+.twice-block {
+    display: flex;
+    width: 1575px;
+    justify-content: flex-end;
+}
+
+.two-block {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.sub-block {
+    width: 800px;
+}
+
+.sub-photo {
+    width: 800px;
+    margin-top: 70px;
+}
+
+.diagonal-letters {
+    font-size: 14px;
+    font-family: playfair display;
+    color: #626262;
+    margin: 40px 0 0 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.first-area {
+    padding-bottom: 8px;
+}
+
+.special-area {
+    padding-bottom: 40px;
+}
+
+.share {
+    color: #b4ad9e;
+    font-size: 13px;
+    font-family: ubuntu;
+    font-weight: lighter;
+}
+
+.main-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.main-link a {
+    margin-left: 25px;
+}
+
+.main-link a:hover {
+    opacity: 0.7;
+}
+
+.aside {
+    width: 300px;
+    margin-top: 95px;
+}
+
+.big-photo {
+    width: 300px;
+}
+
+.aside h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: playfair display;
+    color: #626262;
+    letter-spacing: 2px;
+}
+
+.black {
+    font-family: playfair display;
+    font-size: 12px;
+    color: #626262;
+    padding-bottom: 5px;
+}
+
+.three-link {
+    box-sizing: border-box;
+    margin: 23px 0px 75px 0;
+}
+
+.three-link a {
+    margin-right: 16px;
+}
+
+.three-link a:hover {
+    opacity: 0.7;
+}
+
+.aside ul {
+    list-style: none;
+}
+
+.aside li {
+    font-family: playfair display;
+    font-size: 16px;
+    color: #626262;
+    padding-bottom: 10px;
+}
+
+.aside li::before {
+    content: "・";
+    color: #b4ad9e;
+    margin-right: 15px;
+}
+
+.gold {
+    color: #b4ad9e;
+    font-size: 13px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    padding-bottom: 45px;
+    padding-left: 32px;
+}
+
+.final-block {
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    margin-bottom: 100px;
+}

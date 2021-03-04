@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*共通部分*/
+
+.header-inner {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding-top: 71px;
+    letter-spacing: 5px;
+}
+
+.header-logo a {
+    font-size: 30px;
+    font-family: myriad pro;
+    font-weight: normal;
+    color: #000000;
+}
+
+.header-logo a:hover {
+    text-decoration: underline;
+}
+
+.header-nav {
+    display: flex;
+    padding-top: 71px;
+}
+
+.header-nav li {
+    list-style: none;
+    padding-left: 155px;
+}
+
+.header-nav a {
+    font-size: 14px;
+    font-family: playfair display;
+    color: #626262;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-block img {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/*共通部分ここまで*/
+
+/*マップパターン、フルサイズパターン*/
+
+.three-photos {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.three-photos h2 {
+    padding-top: 68px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+}
+
+.photo-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-block {
+    width: 330px;
+}
+
+.a-block img {
+    width: 330px;
+}
+
+.a-block p {
+    font-size: 20px;
+    font-family: playfair display;
+    color: #626262;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+.comment-block {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.comment-block p {
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+}
+
+.icons {
+    display: flex;
+    width: 1100px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.one-icon img {
+    width: 90px;
+}
+
+.green-icon {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: #cae5e0;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: ubuntu;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.gold-icon {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: #ededea;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: ubuntu;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.one-comment {
+    margin-left: 50px;
+}
+
+.one-comment h2 {
+    font-size: 14px;
+    font-family: playfair display;
+    color: #626262;
+    padding-bottom: 18px;
+}
+
+.one-comment input {
+    width: 930px;
+    height: 80px;
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+    padding-left: 20px;
+}
+
+.comment {
+    font-family: playfair display;
+    font-size: 14px;
+    color: #626262;
+    padding-bottom: 14px;
+    letter-spacing: 1.5px;
+}
+
+.reply {
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+    padding-top: 20px;
+}
+
+.reply1 {
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+    padding-top: 40px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-link p {
+    font-size: 14px;
+    font-family: ubuntu;
+    font-weight: lighter;
+    color: #b4ad9e;
+    padding-right: 30px;
+}
+
+.icon-link a {
+    margin-left: 20px;
+}
+
+.icon-link a:hover {
+    opacity: 0.7;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 97px;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer-description {
+    margin-left: 150px;
+}
+
+.footer-description p {
+    font-size: 14px;
+    font-family: playfair display;
+    color: #000;
+}
+
+.footer-description span {
+    padding-left: 30px;
+}
+
+.footer-link {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.footer-link p {
+    font-size: 14px;
+    font-family: playfair display;
+    color: #000;
+}
+
+.footer-link a:hover {
+    opacity: 0.7;
+}
